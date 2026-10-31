@@ -1,0 +1,30 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #080808;
+}
+.shader-frame {
+  position: fixed;
+  inset: 0;
+}
+.todo-entry {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 50;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: #e0231c;
+  color: #fff;
+  font-family: "Onest", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.todo-entry:hover {
+  transform: translateY(-2px);
+  background: #ff2b23;
+}
